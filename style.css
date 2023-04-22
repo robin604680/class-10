@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2{
+    text-align: center;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+}
+.form-1 {
+    background-color: bisque;
+}
+.form-1 h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+.form {
+    width: 60%;
+    margin: 30px auto;
+}
+.form input, textarea{
+    padding: 15px;
+    border-radius: 5px;
+    border: 2px solid teal;
+    outline: 0;
+    color: brown;
+    font-size: 20px;
+}
+.form input, label,textarea {
+    display: block;
+    width: 100%;
+}
+.form input,textarea {
+    margin-bottom: 15px;
+}
+.form label {
+    margin-bottom: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(9, 81, 83);
+}
+.form input[ type=submit ]{
+    width: 20%;
+    cursor: pointer;
+    background-color: cornflowerblue;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.form input::placeholder, textarea::placeholder {
+    color: darkblue;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    
+}
+
