@@ -6,10 +6,14 @@
 h2{
     text-align: center;
 }
-.container{
+.container-1{
     width: 85%;
     margin: 0 auto;
     padding: 20px;
+}
+.form {
+    width: 60%;
+    margin: 30px auto;
 }
 .form-1 {
     background-color: bisque;
@@ -19,10 +23,6 @@ h2{
     padding: 20px;
     font-size: 30px;
     text-decoration: underline;
-}
-.form {
-    width: 60%;
-    margin: 30px auto;
 }
 .form input, textarea{
     padding: 15px;
@@ -61,3 +61,66 @@ h2{
     
 }
 
+/*-----Form-2-----*/
+.container-2{
+    width: 85%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: chartreuse;
+}
+.form-2 {
+    width: 60%;
+    min-height: 300px;
+    margin: 30px auto;
+    background-color: bisque;
+}
+.form-2 h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    
+}
+.form-2 a{
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+    
+}
+.form-2 a:hover{
+    color: red;
+}
+.form-2 label{
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+.form-2 input{
+    padding: 15px;
+    border: 0;
+    border-bottom: 2px solid teal;
+    outline: 0;
+}
+.form-2 input, label {
+    display: block;
+    width: 100%;
+}
+.form-2 input{
+    margin-bottom: 15px;
+}
+.form-2 input[type=submit]{
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: cadetblue;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.form-2 input[type=submit]:hover{
+    background-color: teal;
+    color: darkblue;
+}
